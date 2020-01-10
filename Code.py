@@ -31,6 +31,12 @@ class Database:
         years = self.cur.fetchall()
         return years
 
+    
+@app.route('/test')
+def test():
+    return "Hello World"
+    
+    
 @app.route('/')
 def employees():
     authorsfor=""
