@@ -1,0 +1,16 @@
+flask
+sqlalchemy
+collections
+networkx
+pylab
+mysql.connector
+numpy
+pandas
+sklearn.linear_model
+sklearn.model_selection
+sklearn.preprocessing
+sklearn.metrics
+matplotlib.pyplot
+seaborn
+sklearn.naive_bayes
+matplotlib.pyplot
