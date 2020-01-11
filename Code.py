@@ -183,7 +183,7 @@ def SearchCoauthorshipAndFor(xnumber,focus):
 
     List=[]
     List2=[]
-    f = open("Create FOR902 Edges.txt", "w")
+   # f = open("Create FOR902 Edges.txt", "w")
     # FOR is same and each author has atleast x number of papers now we look whether they written atleast x papers together i.e. co-authorship for X papers together
     for x in for_author:
         res = con.execute(" select authorname from authorsfor where authorid = %s", x[0])
