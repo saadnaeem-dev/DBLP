@@ -145,7 +145,7 @@ def get_authors_for(formvalue):
 
             journalMostcommon = counterJournal.most_common(1)
             conferenceMostcommon = counterconference.most_common(1)
-            if (journalMostcommon != None and conferenceMostcommon != None):
+            if (journalMostcommon and conferenceMostcommon):
                 if (journalMostcommon[0][1] > conferenceMostcommon[0][1]):
                     print(journalMostcommon)
                     finalFoR = journalMostcommon
