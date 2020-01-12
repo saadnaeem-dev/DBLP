@@ -159,7 +159,7 @@ def get_authors_for(formvalue):
                 print(journalMostcommon)
                 finalFoR = journalMostcommon
 
-            res3 = con.execute("SELECT * FROM `for` WHERE id= %s", (finalFoR[0][0],))
+            res3 = con.execute("SELECT * FROM dblp.for WHERE id= %s", (finalFoR[0][0],))
             finalresult = res3.fetchone()
             print(finalresult)
             return finalresult
